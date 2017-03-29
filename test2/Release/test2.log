@@ -1,0 +1,32 @@
+﻿生成启动时间为 2017/3/29 10:47:08。
+     1>项目“D:\uidp5345\My Documents\Visual Studio 2010\Projects\test2\test2\test2.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Serial Port Tool.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Serial Port Tool.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test2Dlg.cpp
+         test2Dlg.cpp
+     1>test2Dlg.cpp(512): warning C4101: “TmpSend”: 未引用的局部变量
+     1>test2Dlg.cpp(782): warning C4244: “=”: 从“wchar_t”转换到“BYTE”，可能丢失数据
+     1>test2Dlg.cpp(789): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>test2Dlg.cpp(804): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\uidp5345\My Documents\Visual Studio 2010\Projects\test2\Release\Serial Port Tool.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\Serial Port Tool.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\uidp5345\My Documents\Visual Studio 2010\Projects\test2\Release\Serial Port Tool.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\uidp5345\My Documents\Visual Studio 2010\Projects\test2\Release\Serial Port Tool.lib" /MACHINE:X86 Release\test2.res
+         Release\stdafx.obj
+         Release\test2.obj
+         Release\test2Dlg.obj
+         正在生成代码
+         已完成代码的生成
+         test2.vcxproj -> D:\uidp5345\My Documents\Visual Studio 2010\Projects\test2\Release\Serial Port Tool.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\uidp5345\My Documents\Visual Studio 2010\Projects\test2\Release\Serial Port Tool.exe;#1" /manifest "Release\Serial Port Tool.exe.intermediate.manifest" "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\Serial Port Tool.unsuccessfulbuild”。
+         正在对“Release\Serial Port Tool.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\uidp5345\My Documents\Visual Studio 2010\Projects\test2\test2\test2.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.13
